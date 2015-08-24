@@ -1,0 +1,30 @@
+---
+title: "Chapter 2"
+author: "Mindy Mallory"
+date: "August 24, 2015"
+output: html_document
+---
+
+## 2.1
+
+1. $U(x,y) = 4x^2 + 3y^2$
+    a. $\frac{\partial U}{\partial x} = 8x$
+    b. $\frac{\partial U}{\partial x} \Big|_ \left(1,2\right)   = 8$ ;
+       $\frac{\partial U}{\partial y} \Big|_ \left(1,2\right)   = 12$
+    c. $dU = \frac{\partial U}{\partial x}dx + \frac{\partial U}{\partial y}dy$ \
+       $dU =8xdx + 6ydy$
+    d. $0 = 8xdx + 6ydy$ \
+        $-8xdx = 6ydy$ \
+        $- \frac{4}{3}\frac{x}{y} = \frac{dy}{dx}$
+        
+    e.  $U(1,2) = 4*1^2 + 3*2^2 = 4 + 12 = 16$
+    f. $-\frac{4}{3}*\frac{1}{2} = -\frac{2}{3} = \frac{dy}{dx}$
+    g. contour line is on an elipse $16 = 4x^2 +3y^2 \rightarrow 16 - 4x^2 = 3y^2$
+        $\rightarrow  y = \pm \frac{2}{ \sqrt3}\sqrt{4 - x^2}$ This is the equation of the elipse as a function of $x$. \
+        $$\frac{dy}{dx} = \frac{1}{\sqrt3} \left( 4- x^2 \right)^{-\frac{1}{2}}\left(-2x\right) =   \frac{2}{\sqrt3}\left( 4- x^2 \right)^{-\frac{1}{2}}x $$
+        is the slope of the contour line.
+        
+## 2.2 
+1. $Profit = Revanue - Cost$
+    a. $\pi = 90q-q^2 - q^2 - 30q - 100$ maximise with respect to $q$. \ 
+    
